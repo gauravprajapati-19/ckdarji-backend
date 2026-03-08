@@ -42,7 +42,7 @@ app.use("/api/user", userRoutes);
 // app.use("/api/category", categoryRoutes);
 // app.use("/api/brand", brandRoutes);
 // app.use("/api/product", productRoutes);
-app.use('/api/upload',uploadRouter);
+app.use('/api/upload', uploadRouter);
 // app.use("/api/order", orderRoutes);
 // app.use("/api/coupon", couponRoutes);
 // app.use("/api/user-order", userOrderRoutes);
@@ -89,7 +89,8 @@ app.use(express.static(path.join(__dirname, "out")));
   await connectDB();
 
   // Sync DB (creates tables if not exist)
-  await sequelize.sync({ alter: true }); // or { force: true } for drop+create
+  // await sequelize.sync({ alter: true }); // or { force: true } for drop+create
+  sequelize.sync;
 
   // Test route
 
