@@ -19,7 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "cloudinary": "^1.37.0",
+    "cloudinary": "^1.41.3",
     "cors": "^2.8.5",
     "dayjs": "^1.11.7",
     "dotenv": "^16.6.1",
@@ -28,6 +28,7 @@
     "morgan": "^1.10.0",
     "multer": "^1.4.5-lts.1",
     "mysql2": "^3.14.0",
+    "node-fetch": "^3.3.2",
     "nodemailer": "^6.9.2",
     "nodemon": "^3.1.9",
     "pg": "^8.20.0",
